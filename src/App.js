@@ -5,7 +5,6 @@ import { Navbar } from './components/index'
 function App() {
   return (
     <>
-      <Navbar />
       <Routes>
         <Route path='' element={<Home />} />
       </Routes> 
